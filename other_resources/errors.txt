@@ -1,0 +1,7 @@
+error while running 
+
+>> ionic cordova build android
+
+https://forum.ionicframework.com/t/cannot-build-because-missing-common-1-0-0-jar/132462/7
+
+--------------------------------

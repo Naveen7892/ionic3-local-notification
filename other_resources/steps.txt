@@ -1,25 +1,8 @@
-import { Component } from '@angular/core';
-import { NavController, Platform, AlertController } from 'ionic-angular';
-import { LocalNotifications } from '@ionic-native/local-notifications';
+https://www.djamware.com/post/5abe4c6680aca714d19d5b9d/ionic-3-angular-5-and-cordova-local-notification-example
 
-@Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
-})
-export class HomePage {
+Important methods:
 
-  data = { title:'', description:'', date:'', time:'' }
-
-  constructor(
-    public navCtrl: NavController,
-    public localNotifications: LocalNotifications,
-    public platform: Platform,
-    public alertCtrl: AlertController
-  ) {
-
-  }
-  
-  submit() {
+submit() {
     console.log(this.data);
     var date = new Date(this.data.date+" "+this.data.time);
     console.log(date);
@@ -47,5 +30,3 @@ export class HomePage {
       return 'file://assets/sounds/Rooster.caf'
     }
   }   
-
-}
