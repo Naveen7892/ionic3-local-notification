@@ -30,3 +30,10 @@ submit() {
       return 'file://assets/sounds/Rooster.caf'
     }
   }   
+
+
+
+  -----------------------
+  https://ionicframework.com/docs/native/device/
+
+  
